@@ -21,6 +21,7 @@ base_url  = "http://papers.nips.cc"
 index_urls = {1987: "https://papers.nips.cc/book/neural-information-processing-systems-1987"}
 for i in range(1, 30):
     year = i+1987
+    print (year);
     index_urls[year] = "http://papers.nips.cc/book/advances-in-neural-information-processing-systems-%d-%d" % (i, year)
 
 nips_authors = set()
